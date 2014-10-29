@@ -14,8 +14,7 @@ The common directory serves as a staging area until ideas for service are settle
 
 ```
 git clone https://github.com/stackmates/common.services services
-mkdir services/domain
-cd services/domain
+cd src
 git clone https://github.com/stackmates/feed-the-backs [your-project]
 cd ..
 ```

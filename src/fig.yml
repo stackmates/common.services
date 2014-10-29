@@ -1,16 +1,16 @@
 web:
   image: matt/drmg
   ports:
-    - "4040:4040"
-    - "4041:4041"
+    - "4000:4000"
+    - "4001:4001"
   expose:
-    - "4040"
-    - "4041"
+    - "4000"
+    - "4001"
   environment:
-    NODE_ENV: sandbox
-    PORT: 8080
-    ES_URL: http://172.12.8.156:9200
-    MONGODB_URL: 172.12.8.156
+    NODE_ENV: development
+    PORT: 4000
+    ES_URL: http://172.12.8.160:9200
+    MONGODB_URL: 172.12.8.160
     MONGODB_PORT: 27017
   command: node app.js
   volumes:
