@@ -19,7 +19,7 @@ git clone https://github.com/stackmates/feed-the-backs [your-project]
 cd ..
 ```
 
-### Try it out the fast way
+### local
 
 ```
   cd services
@@ -75,20 +75,28 @@ vagrant up
 Edit  DOCKERFILE 
 
 ```
-WORKDIR domain/[your-project]
+WORKDIR domain/app_[your-project]
 ```
 
 ssh into the Vagrant box
 ```bash
-vagrant ssh
-cd /src
-fig run web npm install && fig up
+  vagrant ssh
+  cd /[your-vagrant-shared-path or where git cloned project]
+  docker build -t [your-name]/[node-app-name] 
+  
 ```
+
+Edit fig.yml to name of image
+
+```
+  fig up
+```
+
 
 If everything works run
 
 ```bash
-fig run web npm install && fig up -d
+  fig up -d
 ```
 
 #### Not working?
