@@ -1,0 +1,48 @@
+{
+  "name": "dreamineering.services",
+  "description": "common microservice API with Node, Hapi and Seneca",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/lab/bin/lab"
+  },
+  "private": true,
+  "dependencies": {
+    "async": "^0.9.0",
+    "bell": "^1.0.2",
+    "boom": "^2.4.2",
+    "cheerio": "^0.17.0",
+    "confidence": "^0.12.1",
+    "debug": "^2.1.0",
+    "file": "^0.2.2",
+    "gcloud": "^0.7.1",
+    "good": "^2.2.0",
+    "googleapis": "^1.0.4",
+    "halacious": "^2.0.1",
+    "hapi": "^6.2.0",
+    "hapi-auth-jsonwebtoken": "^0.2.1",
+    "hoek": "^2.3.0",
+    "joi": "^4.6.1",
+    "jsonwebtoken": "^0.4.1",
+    "lodash": "~2.4.1",
+    "lout": "^5.0.1",
+    "neuraln": "^0.2.0",
+    "node-uuid": "^1.4.1",
+    "request": "^2.45.0",
+    "seneca": "^0.5.20",
+    "seneca-account": "^0.1.8",
+    "seneca-cms": "^0.1.1",
+    "seneca-mail": "^0.1.4",
+    "seneca-mongo-store": "^0.1.10",
+    "seneca-project": "^0.1.4",
+    "seneca-user": "^0.2.10",
+    "socket.io": "^1.1.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^1.8.4",
+    "lab": "^3.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

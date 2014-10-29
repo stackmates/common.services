@@ -1,0 +1,11 @@
+{
+  "name": "auth",
+  "version": "0.0.1",
+  "description": "Auth Hapi jsonwebtoken plugin",
+  "main": "auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Howzus <matt@dreamineering.com>",
+  "license": "MIT"
+}

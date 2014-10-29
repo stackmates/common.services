@@ -1,0 +1,16 @@
+{
+  "name": "reach_str",
+  "version": "0.0.0",
+  "description": "structure reach data dependent on intended audience",
+  "main": "reach_str.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "seneca": "*"
+  },
+  "author": "matt mischewski",
+  "license": "MIT"
+}

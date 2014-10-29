@@ -1,0 +1,8 @@
+{
+  "name": "reach_con",
+  "version": "0.0.1",
+  "description": "Profile Hapi plugin",
+  "main": "reach_con.js",
+  "author": "Matt Mischewski <matt@dreamineering.com>",
+  "license": "BSD"
+}

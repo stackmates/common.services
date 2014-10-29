@@ -1,0 +1,11 @@
+{
+  "name": "country_ent",
+  "version": "0.0.0",
+  "description": "access countries fixture data",
+  "main": "country_ent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

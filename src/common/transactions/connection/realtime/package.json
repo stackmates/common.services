@@ -1,0 +1,7 @@
+{
+  "name": "realtime",
+  "version": "0.0.1",
+  "description": "Realtime Hapi plugin",
+  "main": "realtime.js",
+  "author": "Matt Mischewski <matt@dreamineering.com>"
+}

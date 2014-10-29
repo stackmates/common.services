@@ -1,0 +1,11 @@
+{
+  "name": "sales-structure",
+  "version": "0.0.1",
+  "description": "Seneca service that assembles request into struture required by client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Mischewski <matt@dreamineering.com>",
+  "license": "BSD"
+}

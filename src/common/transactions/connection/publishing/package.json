@@ -1,0 +1,8 @@
+{
+  "name": "publishing",
+  "version": "0.0.1",
+  "description": "Profile Hapi plugin",
+  "main": "publishing.js",
+  "author": "Matt Mischewski <matt@dreamineering.com>",
+  "license": "BSD"
+}

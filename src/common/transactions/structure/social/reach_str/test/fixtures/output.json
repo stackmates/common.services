@@ -1,0 +1,22 @@
+[
+    {
+        "impression_type": "post_impressions",
+        "total_value": "5149",
+        "mstimestamp": "1376298203260"
+    },
+    {
+        "impression_type": "post_impressions_organic",
+        "total_value": "4897",
+        "mstimestamp": "1376298203260"
+    },
+    {
+        "impression_type": "post_impressions_viral",
+        "total_value": "252",
+        "mstimestamp": "1376298203260"
+    },
+    {
+        "impression_type": "post_impressions_paid",
+        "total_value": "0",
+        "mstimestamp": "1376298203260"
+    }
+]

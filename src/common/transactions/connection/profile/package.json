@@ -1,0 +1,11 @@
+{
+  "name": "profile",
+  "version": "0.0.1",
+  "description": "Profile Hapi plugin",
+  "main": "profile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Mischewski <matt@dreamineering.com>",
+  "license": "BSD"
+}
