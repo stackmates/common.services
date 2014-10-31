@@ -26,7 +26,7 @@ WORKDIR /opt/nodeapp
 RUN npm install
 
 
-WORKDIR /opt/nodeapp/[app_your_secret_sauce]
+WORKDIR /opt/nodeapp/app_[your_secret_source]
 
 
 ADD ./supervisord.conf /etc/supervisor/conf.d/supervisord.conf

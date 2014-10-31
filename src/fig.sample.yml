@@ -1,5 +1,5 @@
 web:
-  image: matt/drmg
+  image: [your-domain]/services
   ports:
     - "4000:4000"
     - "4001:4001"
@@ -9,10 +9,10 @@ web:
   environment:
     NODE_ENV: development
     PORT: 4000
-    ES_URL: http://172.12.8.160:9200
-    MONGODB_URL: 172.12.8.160
+    ES_URL: http://172.12.8.160:9200      // edit ip
+    MONGODB_URL: 172.12.8.160             // edit ip
     MONGODB_PORT: 27017
-  command: /usr/bin/supervisord
+  command: /usr/bin/supervisord  or node app
   volumes:
      - /src:/data
 db:
