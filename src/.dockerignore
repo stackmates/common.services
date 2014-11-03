@@ -1,5 +1,11 @@
 
-
+node_modules
+var
+public/assets
+vendor
+.settings
+.project
+*.log
 node_modules
 packages
 
@@ -11,6 +17,8 @@ raw
 test
 readme.md
 
+app_secret_sauce
+
 
 **/.vagrant/**
 .idea
@@ -18,18 +26,11 @@ readme.md
 
 _sandbox
 
-config/gulp.js
-
-src/services*
-
 node_modules
 
 .DS_Store
 .idea
 .bin
-dist/
-bin/
-build/
 
 *.sw*
 *~

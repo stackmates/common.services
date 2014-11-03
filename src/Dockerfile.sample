@@ -21,12 +21,11 @@ RUN mkdir -p /var/log/supervisor
 RUN mkdir -p /data/public/logs
 
 
+# This runs fast most times, but occasionally takes forever and loads over 700MB from somewhere?
 ADD . /opt/nodeapp
-WORKDIR /opt/nodeapp
-RUN npm install
-
-
-WORKDIR /opt/nodeapp/app_[your_secret_source]
+# WORKDIR /opt/nodeapp
+# RUN npm install
+WORKDIR /opt/nodeapp/app_[your-project]
 
 
 ADD ./supervisord.conf /etc/supervisor/conf.d/supervisord.conf
