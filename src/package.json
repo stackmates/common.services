@@ -28,6 +28,8 @@
     "lout": "^5.0.1",
     "neuraln": "^0.2.0",
     "node-uuid": "^1.4.1",
+    "passport": "^0.2.1",
+    "passport-github": "^0.1.5",
     "request": "^2.45.0",
     "seneca": "^0.5.20",
     "seneca-account": "^0.1.8",
