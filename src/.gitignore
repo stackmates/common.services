@@ -9,6 +9,7 @@ Dockerfile
 
 _sandbox
 app*
+api*
 
 node_modules
 
